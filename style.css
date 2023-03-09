@@ -33,9 +33,10 @@ li img{
 }
 
 .logo {
-    padding-right: 30%;
+    padding-right: 25%;
     align-items: left;
     padding-left: 24px;
+    margin-bottom: 18px;
     
 }
 
@@ -43,7 +44,7 @@ hr {
     height: 5px;
     width: 90%;
     border-width: 0;
-    background-color: #3D565C;
+    background-color: #DBECF0;
     margin-top: 0;
     margin-bottom: 0;
     border-radius: 4px;
@@ -70,7 +71,7 @@ hr {
     padding-right: 64px;
     padding-bottom: 32px;
     padding-top: 32px;
-    border-radius: 8px;
+    
 
 }
 
@@ -133,7 +134,7 @@ button:hover {
     height: 5px;
     width: 100%;
     border-width: 0;
-    background-color: #3D565C;
+    background-color: #DBECF0;
     margin-top: 16px;
     margin-bottom: 16px;
     border-radius: 4px;
