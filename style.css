@@ -1,0 +1,281 @@
+nav li {
+    font-family: 'Krub';
+    font-size: 16px;
+    color: #3D565C;
+    display: inline-block;
+    padding: 10px 18px;
+    align-items: right;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+ul {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 24 0 0 0;
+
+}
+
+li img{
+    padding-right: 8px;
+}
+
+.topnav:hover {
+    transition-duration: 0.2s;
+  }
+
+.topnav:hover {
+    border-bottom: 2px solid #3D565C;
+    
+    
+    
+}
+
+.logo {
+    padding-right: 30%;
+    align-items: left;
+    padding-left: 24px;
+    
+}
+
+hr {
+    height: 5px;
+    width: 90%;
+    border-width: 0;
+    background-color: #3D565C;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    /* background-color: #e9f4f9; */
+    object-fit: cover;
+   
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px;
+   
+}
+
+.heroimg {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    border-radius: 8px;
+
+}
+
+.herotext {
+    font-size: 48px;
+    font-family: 'Krub';
+    font-weight: 700;
+    color:#29393D; 
+    padding: 20px 40px;
+}
+
+button {
+    background-color: #4DA0B2; 
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Krub';
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    transition-duration: 0.4s;
+  }
+
+button:hover {
+    background-color: #2FD0C6; /* Green */
+    color: white;
+  }
+
+.bestsellers-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.bestseller-heading {
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    /*margin-left: 37%;
+    margin-right: 35%;*/
+    font-family: 'Krub';
+    font-size: 32px;
+    font-weight: 500px;
+    color: #3D565C;
+}
+.bestsellers {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.prodline {
+    height: 5px;
+    width: 100%;
+    border-width: 0;
+    background-color: #3D565C;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+
+.productcontainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px 32px;
+    border-radius: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    box-shadow: 0px 4px 16px hsla(191, 20%, 30%, 0.3);
+
+
+}
+
+.cardtext {
+    font-family: 'Krub';
+    font-weight: 500;
+    color: #3D565C;
+}
+
+ .prodimg {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+ }
+
+ .prodcard {
+   border-radius: 4px;
+ }
+
+ button.prodcard{
+    padding-left: 16px;
+ }
+
+.prodcard img{
+    padding-right: 24px;
+    
+}
+
+h3 {
+    display: inline-block;
+    margin: 12px 0px;
+    padding: 0px;
+    font-family: 'Krub';
+    font-weight: 200;
+    color:#3D565C;
+    
+}
+
+.productprice {
+    display: inline-block;
+    margin: 12px 0px;
+    font-family: 'Krub';
+    font-weight: 500;
+    color: #3D565C;
+}
+
+select#dropdown {
+    padding: 2px;
+    font-family: 'Krub';
+    color:#3D565C;
+    border-color: #3D565C;
+    border-radius: 2px;
+    border-width: 1px;
+}
+
+h2 {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+   justify-content: center;
+    font-family: 'Krub';
+    font-size: 32px;
+    font-weight: 200;
+    color: #3D565C;
+    }
+
+.sustainable {
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+    margin-bottom: 24px;
+    font-family: 'Krub';
+   justify-items: center;
+    font-weight: 200;
+    color: #3D565C;
+}
+
+h3.sustainablesubtext {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 0px;
+    /*margin-left: 25%;*/
+    /*margin-right: 20%;*/
+    margin-bottom: 32px;
+
+
+}
+
+h4.features {
+    display: flex;
+    justify-content: center;
+    border-width: 4;
+    border-color: #3D565C;
+    border-radius: 4px;
+    flex-direction: row;
+    font-family: 'Krub';
+    font-weight: 200;
+    color: #3D565C;
+    box-shadow: 0px 2px 4px hsla(191, 20%, 30%, 0.3);
+    margin: 16px;
+    padding: 12px 20px;
+    background-color: hsl(191, 20%, 90%);
+}
+
+.featurebox {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.featuresSection {
+    margin-bottom: 128px;
+}
+
+footer {
+    background-color: #3D565C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer p {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
