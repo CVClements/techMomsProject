@@ -90,8 +90,8 @@ hr {
 }
 
 .heroimg {
-    padding-left: 0px;
-    padding-right: 64px;
+    padding-left: 36px;
+    padding-right: 36px;
     padding-bottom: 32px;
     padding-top: 64px;
     border-width: 0;
@@ -304,6 +304,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     
 }
 
@@ -338,7 +339,8 @@ footer {
 }
 
 .emailForm img {
-    margin-left: 24px;
+    margin-left: 16px;
+    margin-right: 36px;
     padding: 48px;
     border-radius: 80%;
 
