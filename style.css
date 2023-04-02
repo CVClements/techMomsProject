@@ -17,16 +17,17 @@ nav li {
     font-size: 16px;
     color: #3D565C;
     display: inline-block;
+    justify-content: right;
     padding: 10px 18px;
     align-items: right;
     margin-top: 64px;
     margin-bottom: 16px;
-    margin-right: 32px;
+    margin-right: px;
 }
 
 ul {
     display: flex;
-    justify-content: top;
+    justify-content: center;
     align-items: center;
     padding: 0 0 0 0;
     margin: 0px;
@@ -50,9 +51,10 @@ li img{
 }
 
 .logo {
-    padding-right: 10%;
-    align-items: left;
-    padding-left: 48px;
+    justify-content: center;
+    padding-right: 25%;
+    align-items: center;
+    padding-left: 16px;
     padding-bottom: 32px;
     margin-bottom: 0px;
     margin-top: 36px;
@@ -70,10 +72,11 @@ hr {
 }
 .hero {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 128px 0px 0px 0px;
-    /* background-color: #e9f4f9; */
-    object-fit: cover;
+    /* background-color: #14232a; */
+  
     background-size: cover;
      position: relative;
     z-index: 0;
@@ -86,10 +89,13 @@ hr {
     align-items: center;
     flex-direction: column;
     margin: 32px;
+    margin-left: 3%;
    
 }
 
 .heroimg {
+    display: flex;
+    align-items: center;
     padding-left: 36px;
     padding-right: 36px;
     padding-bottom: 32px;
@@ -101,11 +107,12 @@ hr {
 }
 
 .herotext {
+    align-items: center;
     font-size: 48px;
     font-family: 'Krub';
     font-weight: 700;
     color:#29393D; 
-    padding: 20px 40px;
+    padding: 16px 40px;
 }
 
 button {
@@ -310,6 +317,7 @@ footer {
 
 .emailForm {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #29393D;
     object-fit: cover;
