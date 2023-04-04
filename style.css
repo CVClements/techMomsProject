@@ -441,7 +441,8 @@ footer p {
     font-family: 'Krub';
     font-weight: 700;
     color: white;
-    margin: 16px;
+    margin: 0px;
+    padding: 8px;
 }
 
 .port2 {
@@ -449,7 +450,8 @@ footer p {
     font-family: 'Krub';
     color: white;
     align-items: left;
-    margin: 16px;
+    margin: 0px;
+    padding: 8px;
 }
 
 .portfolioSection img {
